@@ -7,7 +7,6 @@ import './App.css'
 function App() {
   // Dummy Text 
   const [count, setCount] = useState(0)
-  const x = ;
 
   return (
     <>
