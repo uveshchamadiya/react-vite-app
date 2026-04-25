@@ -24,7 +24,7 @@ pipeline {
                 script {
                     sh "docker stop ${CONTAINER_NAME} || true"
                     sh "docker rm ${CONTAINER_NAME} || true"
-                    sh "docker run -d -p 80:80 --name ${CONTAINER_NAME} ${IMAGE_NAME}"
+                    sh "docker run -d -p 80:5173 --name ${CONTAINER_NAME} ${IMAGE_NAME}"
                 }
             }
         }
