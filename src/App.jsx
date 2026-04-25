@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <section id="center">
-        React Vite App - V1
+        React Vite App - V2
       </section> 
 
     </>
